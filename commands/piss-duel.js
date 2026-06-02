@@ -77,7 +77,7 @@ module.exports = {
             // =========================
             // 💥 STREAM
             // =========================
-            ctx.drawImage(stream, -30, 0, 800, 400);
+            ctx.drawImage(stream, -30, -20, 800, 400);
 
             const buffer = canvas.toBuffer();
 
