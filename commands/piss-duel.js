@@ -40,11 +40,11 @@ module.exports = {
         ctx.arc(200, 200, 100, 0, Math.PI * 2);
         ctx.closePath();
         ctx.clip();
-        ctx.drawImage(attacker, 100, 0, 200, 200);
+        ctx.drawImage(attacker, 100, 100, 200, 200);
         ctx.restore();
 
         // 💦 stream overlay (connects them visually)
-        ctx.drawImage(stream, 20, 0, 800, 400);
+        ctx.drawImage(stream, 0, 0, 800, 400);
 
         const buffer = canvas.toBuffer();
 
