@@ -44,7 +44,7 @@ module.exports = {
         ctx.restore();
 
         // 💦 stream overlay (connects them visually)
-        ctx.drawImage(stream, 0, 100, 800, 400);
+        ctx.drawImage(stream, 0, -100, 800, 400);
 
         const buffer = canvas.toBuffer();
 
