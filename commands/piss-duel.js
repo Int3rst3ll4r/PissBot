@@ -40,7 +40,7 @@ module.exports = {
         ctx.arc(200, 200, 100, 0, Math.PI * 2);
         ctx.closePath();
         ctx.clip();
-        ctx.drawImage(attacker, 100, 100, 200, 200);
+        ctx.drawImage(attacker, 100, 200, 200, 200);
         ctx.restore();
 
         // 💦 stream overlay (connects them visually)
