@@ -26,8 +26,8 @@ module.exports = {
 
         // choose overlay + messages
         const overlayPath = isSecret
-            ? './assets/secret-liquid.png'
-            : './assets/piss.png';
+            ? './assets/cum_overlay.png'
+            : './assets/piss_overlay.png';
 
         const overlay = await loadImage(overlayPath);
 
