@@ -3,7 +3,7 @@ const { createCanvas, loadImage } = require('canvas');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('piss-duel')
+        .setName('piss_duel')
         .setDescription('Fight someone… in the worst way possible')
         .addUserOption(option =>
             option.setName('target')
