@@ -19,7 +19,7 @@ module.exports = {
         const ctx = canvas.getContext('2d');
 
         const avatar = await loadImage(avatarURL);
-        const overlay = await loadImage('./assets/piss_overlay.png');
+        const overlay = await loadImage('./assets/piss.png');
 
         // Circle avatar
         ctx.save();
