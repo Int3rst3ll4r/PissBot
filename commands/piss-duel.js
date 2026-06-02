@@ -23,7 +23,7 @@ module.exports = {
 
         const attacker = await loadImage(attackerURL);
         const target = await loadImage(targetURL);
-        const stream = await loadImage('./assets/piss-stream.png');
+        const stream = await loadImage('./assets/piss_stream.png');
 
         // 🎯 target (bottom right)
         ctx.save();
