@@ -13,7 +13,6 @@ client.commands = new Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 const { REST, Routes } = require('discord.js');
-const fs = require('fs');
 
 async function registerCommands() {
     const commands = [];
